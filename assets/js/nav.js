@@ -16,3 +16,5 @@ $(window).scroll(function() {
         $('.nav').removeClass('affix');
     }
 });
+
+document.querySelector('html').style.scrollPaddingTop = '65px';
