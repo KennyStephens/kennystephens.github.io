@@ -5,7 +5,8 @@ $('.navTrigger').click(function () {
 });
 
 function closeMobileMenu() {
-    $("#mainListDiv").removeClass("show_list");
+    // $("#mainListDiv").removeClass("show_list");
+    document.getElementById('mainListDiv').classList.remove("show_list");
 }
 
 $(window).scroll(function() {
