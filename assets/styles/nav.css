@@ -107,6 +107,16 @@ body {
     }
 }
 
+@media screen and (max-width: 992px) {
+    .affix {
+        height: 75px;
+    }
+
+    .nav div.logo a {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width:768px) {
     .navTrigger {
         display: block;
@@ -347,8 +357,4 @@ body {
     background-color: #111;
 }
 
-@media screen and (max-width: 992px) {
-    .affix {
-        height: 75px;
-    }
-}
+
