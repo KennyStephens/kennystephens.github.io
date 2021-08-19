@@ -41,7 +41,7 @@ body {
 }
 
 .nav div.logo .mobile-title {
-    margin-top: -40px;
+    margin-top: -45px;
 }
 
 .nav div.logo a {
@@ -347,23 +347,8 @@ body {
     background-color: #111;
 }
 
-
-
-
-
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+@media screen and (max-width: 992px) {
+    .affix {
+        height: 75px;
+    }
 }
