@@ -32,7 +32,16 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
+}
+
+.nav div.logo span {
+    color: #fff;
+    font-size: 12px;
+}
+
+.nav div.logo .mobile-title {
+    margin-top: -40px;
 }
 
 .nav div.logo a {
