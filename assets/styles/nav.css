@@ -112,6 +112,10 @@ body {
         height: 75px;
     }
 
+    .nav {
+        padding-top: 0;
+    }
+
     .nav div.logo a {
         font-size: 2rem;
     }
