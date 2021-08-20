@@ -19,4 +19,4 @@ $(window).scroll(function() {
     }
 });
 
-document.querySelector('html').style.scrollPaddingTop = '70px';
+document.querySelector('html').style.scrollPaddingTop = '90px';
