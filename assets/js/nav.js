@@ -6,7 +6,7 @@ $('.navTrigger').click(function () {
 
 function closeMobileMenu() {
     document.getElementById('mainListDiv').classList.remove("show-list");
-
+    document.querySelector('.navTrigger').classList.remove("active");
 }
 
 $(window).scroll(function() {
