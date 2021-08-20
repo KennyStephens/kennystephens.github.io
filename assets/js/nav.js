@@ -1,12 +1,12 @@
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
-    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").toggleClass("show-list");
     $("#mainListDiv").fadeIn();
 });
 
 function closeMobileMenu() {
-    // $("#mainListDiv").removeClass("show_list");
-    document.getElementById('mainListDiv').classList.remove("show_list");
+    document.getElementById('mainListDiv').classList.remove("show-list");
+
 }
 
 $(window).scroll(function() {
@@ -17,4 +17,4 @@ $(window).scroll(function() {
     }
 });
 
-document.querySelector('html').style.scrollPaddingTop = '65px';
+document.querySelector('html').style.scrollPaddingTop = '70px';
