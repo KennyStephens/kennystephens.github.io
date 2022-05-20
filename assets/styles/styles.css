@@ -420,12 +420,13 @@ h2 {
   font-size: 14px;
   font-weight: 300;
 }
-.work-card .btn-primary {
-  background-color: #00e676;
-  border-color: #00be62;
+.work-card .btn {
+  background-color: #23a6d5;
+  border-color: #23a6d5;
+  color: #fff;
 }
 
-.work-card .btn-primary:hover {
+.work-card .btn:hover {
   opacity: 0.8;
 }
 
@@ -433,12 +434,13 @@ h2 {
   background-color: rgb(243, 243, 243);
 }
 
-.contact .btn-primary {
-  background-color: #00e676;
-  border-color: #00be62;
+.contact .btn {
+  background-color: #23a6d5;
+  border-color: #23a6d5;
+  color: #fff;
 }
 
-.contact .btn-primary:hover {
+.contact .btn:hover {
   opacity: 0.8;
 }
 
