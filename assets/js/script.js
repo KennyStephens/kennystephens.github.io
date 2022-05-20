@@ -20,3 +20,6 @@ $(window).scroll(function() {
 });
 
 document.querySelector('html').style.scrollPaddingTop = '90px';
+
+var lazyLoadInstance = new LazyLoad({
+  });
